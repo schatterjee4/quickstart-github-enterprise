@@ -12,7 +12,7 @@
 ORG=\"$4\"
 ADMIN_USER=\"$1\"
 
-EC2_IP=`curl http://169.254.169.254/latest/meta-data/public-ipv4`
+EC2_IP=`curl http://169.254.169.254/latest/meta-data/local-ipv4`
 
 ##########################################
 # Check status function
